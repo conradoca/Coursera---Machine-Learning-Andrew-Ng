@@ -1,11 +1,12 @@
 import numpy as np
 
+
 # Computing the sigmoid function
 # It only works with x being an array.
 # you can convert any value or Python's list to an array using numpy.array(list)
 def sigmoid(x):
     z = np.exp(-x)
-    g=(1/(1+z))
+    g = (1/(1+z))
     return g
 
 
