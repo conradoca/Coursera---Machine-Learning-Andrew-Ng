@@ -37,4 +37,4 @@ $RECYCLE.BIN/
 **/MNIST*database/*.idx3-ubyte
 __pycache__/
 .ipynb_checkpoints/
-__pycache__/
+
