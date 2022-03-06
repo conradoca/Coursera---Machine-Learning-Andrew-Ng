@@ -32,4 +32,9 @@ $RECYCLE.BIN/
 **/*.sqlite
 **/*.db
 **/*.zip
-**/MNIST*database/*
+**/MNIST*database/*.gz
+**/MNIST*database/*.idx1-ubyte
+**/MNIST*database/*.idx3-ubyte
+__pycache__/
+.ipynb_checkpoints/
+
