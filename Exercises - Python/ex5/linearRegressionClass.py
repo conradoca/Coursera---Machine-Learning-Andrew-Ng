@@ -86,3 +86,9 @@ class linearRegression():
 
         y_pred = X.dot(self.theta)
         return y_pred
+
+    def score(self, X, y):
+        u = np.power(y - self.predict(X), 2).sum()
+        v = np.power(y - np.mean(y), 2).sum()
+        scr = 1 - u/v
+        return scr
