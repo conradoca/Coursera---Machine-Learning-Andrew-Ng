@@ -11,8 +11,8 @@ To complete the exercises I have used some articles from the web that have been 
 
 Following a description of the exercises plus the techniques and items that I have learned on each of them so it can be used in the future as models for new exercises:
 
-## [Exercise 1 - Linear Regression](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/tree/master/Exercises%20-%20Python/ex1%20-%20Linear%20Regression)
-Liner regression with single and multiple variables.
+## [Exercise 1 - Linear Regression](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/tree/master/Exercises%20-%20Python/ex1%20-%20Linear%20Regression) 🍼
+Linear regression with single and multiple variables.
 * Pandas:
   * Read CSV file
   * Convert data into a numpy array with the <code>iloc[:,:].to_numpy()</code> method
