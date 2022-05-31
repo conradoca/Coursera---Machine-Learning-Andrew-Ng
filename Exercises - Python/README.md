@@ -69,3 +69,30 @@ print('\t',grad.flatten())
 * Replace all 10 by 0: <code>y[y == 10] = 0</code>
 * <code>np.roll(x, 1, axis=0)</code> to swicth the first and the last rows
 * Matplotlib: <code>plt.figure()</code> and <code>subplots</code>
+
+[ex3-MNIST image visualization](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex3%20-%20MultiClass%20Classification%20%2B%20NN%20intro/ex3-MNIST%20image%20visualization.ipynb): Experimentation to process and visualize the MNIST dataset.
+* <code>os</code> library: Open and read files
+* matplotlib: <code>subplot</code> to create a grid with images
+
+## [ex4 - Neural Networks](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/tree/master/Exercises%20-%20Python/ex4%20-%20Neural%20Networks) 🌋
+[ex4-neural networks](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex4%20-%20Neural%20Networks/ex4-neural%20networks.ipynb)
+* Numpy:
+  * <code>flatten</code>: convert into a 1D vector
+  * <code>amax</code>: return the maximum from an axis or from an array
+
+[ex4b-neural network class](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex4%20-%20Neural%20Networks/ex4b-neural%20network%20class.ipynb): Same as the previous one but creating a NN class
+* Python:
+  * Class creation and methods
+  * <code>@staticmethod</code>
+* <code>for i in reversed(range(a, b))</code>
+* Numpy:
+  * <code>np.argmax</code>: Returns the indices of the maximum values along an axis
+
+[ex4c - Neural Network Class with MNIST dataset](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex4%20-%20Neural%20Networks/ex4c%20-%20Neural%20Network%20Class%20with%20MNIST%20dataset.ipynb): In this case we combine both "ex4b-neural network class" and "ex3-MNIST image visualization"
+
+[Image processing experiments with Pillow](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex4%20-%20Neural%20Networks/Image%20processing%20experiments%20with%20Pillow.ipynb)
+* Pillow:
+  * Open an image and extract basic information
+  * Show the image
+  * Resizing and converting images to different color scales
+  * Save converted images
