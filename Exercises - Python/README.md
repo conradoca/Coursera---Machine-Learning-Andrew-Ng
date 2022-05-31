@@ -96,3 +96,38 @@ print('\t',grad.flatten())
   * Show the image
   * Resizing and converting images to different color scales
   * Save converted images
+
+## [ex5 - Regularized Linear Regression + Bias vs Variance](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/tree/master/Exercises%20-%20Python/ex5%20-%20Regularized%20Linear%20Regression%20%2B%20Bias%20vs%20Variance) ⏰
+
+[ex5-Regularized Linear Regression and Bias v.s. Variance](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex5%20-%20Regularized%20Linear%20Regression%20%2B%20Bias%20vs%20Variance/ex5-Regularized%20Linear%20Regression%20and%20Bias%20v.s.%20Variance.ipynb)
+
+* Linear regression with regularization
+* Bias-Variance balance
+* Learning curves
+* Cross validation dataset
+* Polynomial regression using <code>sklearn.preprocessing</code>
+  * <code>PolynomialFeatures</code>
+  * <code>StandardScaler</code>
+* Adjust with various regularization (&lambda;) parameters
+* Selecting the optimal &lambda; checking the error on the cross validation set
+
+[ex5b-Regularized Linear Regression and Bias v.s. Variance (with sklearn)](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex5%20-%20Regularized%20Linear%20Regression%20%2B%20Bias%20vs%20Variance/ex5b-Regularized%20Linear%20Regression%20and%20Bias%20v.s.%20Variance%20(with%20sklearn).ipynb)
+* scikit-learn:
+  * <code>sklearn.preprocessing.PolynomialFeatures</code>
+  * <code>sklearn.preprocessing.StandardScaler</code>
+  * <code>sklearn.linear_model.LinearRegression</code>
+  * <code>sklearn.linear_model.Ridge</code> to apply regularization
+  * <code>sklearn.pipeline.make_pipeline</code>
+  * <code>sklearn.model_selection.learning_curve</code>
+  * <code>sklearn.model_selection.validation_curve</code>
+
+## [ex6 - SVM](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/tree/master/Exercises%20-%20Python/ex6%20-%20SVM) 💣
+
+[Ex6a-Support Vector Machines - Linear Model](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex6%20-%20SVM/Ex6a-Support%20Vector%20Machines%20-%20Linear%20Model.ipynb)
+* Scikit-learn:
+  * <code>sklearn.svm.SVC</code>
+  * <code>kernel='linear'</code>
+  * <code>C</code> as regularization parameter
+* Plotting the decision boundary
+
+[Ex6b-Support Vector Machines - nonlinear](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex6%20-%20SVM/Ex6b-Support%20Vector%20Machines%20-%20nonlinear.ipynb) 
