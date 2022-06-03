@@ -130,4 +130,32 @@ print('\t',grad.flatten())
   * <code>C</code> as regularization parameter
 * Plotting the decision boundary
 
-[Ex6b-Support Vector Machines - nonlinear](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex6%20-%20SVM/Ex6b-Support%20Vector%20Machines%20-%20nonlinear.ipynb) 
+[Ex6b-Support Vector Machines - nonlinear](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex6%20-%20SVM/Ex6b-Support%20Vector%20Machines%20-%20nonlinear.ipynb)
+* Scikit-learn:
+  * <code>sklearn.svm.SVC</code>
+  * <code>kernel='rbf'</code>
+  * <code>gamma</code> as parameter to determine the influence of each training example
+  * <code>GridSearchCV</code> to find the optimal combination of hyperparameters
+* Plotting the decision boundary
+
+[Ex6c - Email Features extraction](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex6%20-%20SVM/Ex6c%20-%20Email%20Features%20extraction.ipynb)
+* Text file parsing:
+  * Read the file line by line
+  * Regular Expression: <code>re.sub</code> find and replace the regular expression
+* Python:
+  * <code>lambda</code>
+  * <code>if</code> one-liner
+* Jupyter notebook:
+  * Mathematical Capital letters, upperscript and underscript: <code>$R^{n}$</code> and <code>$x_i=1$</code>
+* Natural Language Processing (NLP):
+  * "Bag of words" (vocabulary list)
+  * PorterStemmer algortihm
+
+[Ex6c - Spam classification with SVM](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex6%20-%20SVM/Ex6c%20-%20Spam%20classification%20with%20SVM.ipynb)
+* scikit-learn:
+  * <code>GridSearchCV</code> for hyperparameters tuning
+* NLP:
+  * email features extraction
+
+[MNIST classification with SVM](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex6%20-%20SVM/MNIST%20classification%20with%20SVM.ipynb)
+Using the MNIST original dataset, process the files and run SVM to classify the numbers
