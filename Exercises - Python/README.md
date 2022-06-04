@@ -159,3 +159,42 @@ print('\t',grad.flatten())
 
 [MNIST classification with SVM](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex6%20-%20SVM/MNIST%20classification%20with%20SVM.ipynb)
 Using the MNIST original dataset, process the files and run SVM to classify the numbers
+
+## [ex7 - Kmeans + PCA](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/tree/master/Exercises%20-%20Python/ex7%20-%20Kmeans%20%2B%20PCA) 🐦
+[Ex7 - Kmeans clustering](http://localhost:8888/notebooks/OneDrive/Personal%20Projects/Coursera%20-%20Machine%20Learning%20Andrew%20Ng/Exercises%20-%20Python/ex7%20-%20Kmeans%20%2B%20PCA/Ex7%20-%20Kmeans%20clustering.ipynb)
+* Kmeans:
+  * My own implementation of a Kmeans class
+* Matplotlib:
+  * centroids visualization. Incremental steps to reach a stable centroid
+
+[Ex7 - Kmeans clustering with scikit-learn + identify number of clusters](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex7%20-%20Kmeans%20%2B%20PCA/Ex7%20-%20Kmeans%20clustering%20with%20scikit-learn%20%2B%20identify%20number%20of%20clusters.ipynb)
+* scikit-learn:
+  * <code>sklearn.cluster.KMeans</code>: Kmeans implementation
+  * <code>sklearn.metrics.silhouette_score</code>: Silhouette score to detect number of clusters
+* Kmeans: How to best select the number of clusters
+  * Elbow method: Using the Sum of Squared Errors (SSE) for different values of <code>k</code>(number of clusters), identify the value of <code>k</code> where SSE decreases most rapidly.
+  * Silhouette method: how similar a point is to its own cluster comparing to the other clusters. A high value is desireable.
+
+[Ex7 - Image compression with Kmeans](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex7%20-%20Kmeans%20%2B%20PCA/Ex7%20-%20Image%20compression%20with%20Kmeans.ipynb)
+We reduce each of the RGB colors (24-bits -> milions of colors) to its closest color on a set of 16 colors.
+* Matplotlib:
+  * Show a grid of images
+* PIL:
+  * Manage images as an array with numpy
+* numpy:
+  * <code>astype</code> to convert an array on a type
+
+[Ex7b - Principal Component Analysis](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex7%20-%20Kmeans%20%2B%20PCA/Ex7b%20-%20Principal%20Component%20Analysis.ipynb)
+* Our own implementation of PCA
+
+[Ex 7c - Face Image Dataset PCA](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex7%20-%20Kmeans%20%2B%20PCA/Ex%207c%20-%20Face%20Image%20Dataset%20PCA.ipynb)
+Identify the number of components required to represent a % of the model.
+* scikit-learn:
+  * <code>sklearn.decomposition.PCA</code>
+  * <code>PCA(n_components=K)</code> & <code>pca.inverse_transform</code>
+* motplotlib:
+  * draw images
+* numpy:
+  * <code>np.cumsum</code> cummulative sum to identify the number of dimensions that describe a % of the model
+
+## [ex8 - Anomaly Detection + Recommender Systems](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/tree/master/Exercises%20-%20Python/ex8%20-%20Anomaly%20Detection%20%2B%20Recommender%20Systems)
