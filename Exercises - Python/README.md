@@ -198,3 +198,21 @@ Identify the number of components required to represent a % of the model.
   * <code>np.cumsum</code> cummulative sum to identify the number of dimensions that describe a % of the model
 
 ## [ex8 - Anomaly Detection + Recommender Systems](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/tree/master/Exercises%20-%20Python/ex8%20-%20Anomaly%20Detection%20%2B%20Recommender%20Systems)
+
+[Ex8 - Anomaly Detection](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex8%20-%20Anomaly%20Detection%20%2B%20Recommender%20Systems/Ex8%20-%20Anomaly%20Detection.ipynb)
+* scikit-learn:
+  * F1 score
+* matplotlib:
+  * contour lines
+* numpy:
+  * <code>count_nonzero</code>
+  * <code>mean</code> and <code>var</code>
+
+[Ex 8b - Recommender Systems](https://github.com/conradoca/Coursera---Machine-Learning-Andrew-Ng/blob/master/Exercises%20-%20Python/ex8%20-%20Anomaly%20Detection%20%2B%20Recommender%20Systems/Ex%208b%20-%20Recommender%20Systems.ipynb)
+* <code>from scipy import optimize</code>: optimize using an array as parameters
+* numpy:
+  * <code>where</code>
+  * <code>nanmean</code>
+  * <code>nan_to_num</code>
+  * <code>concatenate</code>
+  * <code>column_stack</code>
